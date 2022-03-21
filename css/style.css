@@ -1,0 +1,33 @@
+.img-pic img{
+  max-width:100%;
+  height:auto;
+
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  header, main, footer {
+    width: 100%;
+  }
+}
+
+body .img-pic{
+text-align: center;
+}
+
+.video-con{
+  border: 1px solid;
+  height:35% ;
+  max-width: 35%;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  text-align: center;
+}
+
+.article-des{
+  border: 1px solid;
+  height: 35%;
+  width: 35%;
+  float:right;
+
+}
